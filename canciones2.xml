@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canciones [
+<!ELEMENT canciones (cancion)*>
+<!ELEMENT cancion (nombre+ , url+)>
+<!ATTLIST cancion numero ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+]>
 <canciones>
 
 <cancion numero="1"><nombre>tierra plana</nombre><url>https://www.youtube.com/embed/bm5dJajnd1g</url></cancion><cancion numero="2"><nombre>bart</nombre><url>https://www.youtube.com/embed/dw46ZxGzOh8</url></cancion><cancion numero="3"><nombre>a2</nombre><url>https://www.youtube.com/embed/dw46ZxGzOh8</url></cancion><cancion numero="4"><nombre>a1</nombre><url>https://www.youtube.com/embed/dw46ZxGzOh8</url></cancion><cancion numero="5"><nombre>a13</nombre><url>https://www.youtube.com/embed/dw46ZxGzOh8</url></cancion><cancion numero="6"><nombre>a14</nombre><url>https://www.youtube.com/embed/dw46ZxGzOh8</url></cancion><cancion numero="7"><nombre>a15</nombre><url>https://www.youtube.com/embed/dw46ZxGzOh8</url></cancion><cancion numero="8"><nombre>a16</nombre><url>https://www.youtube.com/embed/dw46ZxGzOh8</url></cancion></canciones>
