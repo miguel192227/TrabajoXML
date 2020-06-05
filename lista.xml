@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista [
+<!ELEMENT lista (mesa)+>
+<!ATTLIST mesa numero ID #REQUIRED>
+<!ELEMENT cancion (#PCDATA)>
+<!ATTLIST cancion num CDATA #REQUIRED>
+<!ATTLIST cancion nombre CDATA #REQUIRED>
+]>
 <lista>
 <mesa numero="1"/>
 <mesa numero="2"><cancion num="1" nombre="tierra plana">1</cancion></mesa>	
