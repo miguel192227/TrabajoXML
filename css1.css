@@ -1,0 +1,133 @@
+.time{
+	background-color: red;
+	color: white;
+	height: 40px;
+}
+
+.fg{
+	background-color: yellow;
+display: flex;
+	align-items: center;
+}
+
+.mol{
+
+	display: block;
+	width: 300px;
+	background-color: #FFA500;
+	margin-top: 7px;
+	margin-bottom:7px;
+	text-align: center;
+
+}
+.mol:hover{
+
+
+	cursor: pointer;
+	background-color: yellow;
+
+}
+
+.table{
+	display: block;
+}
+.cell{
+display: flex;
+	align-items: center;
+	position: relative;
+	background-color: red;
+	color: white;
+}
+body{
+	margin: 0px;
+padding: 0px;
+}
+.tree{
+	background-color: white;
+	display: flex;
+	
+  width: 99%;
+  height:198px;
+}
+
+.ghost{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border:1px solid black;
+	width: 400px;
+	height: 200px;
+}
+
+.move{
+	width: 255px;
+margin-top: 5px;
+}
+.war{
+	width: 220px;
+margin-top: 10px;
+}
+.cron2{
+	border-radius: 20px;
+	height: 40px;
+	width: 300px;
+ position: relative;
+ background-color:#FFA500; 
+ bottom: 10px;
+}
+.cron2:hover{
+
+	cursor: pointer;
+	background-color: yellow;
+
+}
+
+
+.a{
+
+	background-color: red;
+	width: 400px;
+	
+	background-color: #807FEE;
+}
+
+.linea{
+	
+	width: 400px;
+	background-color: black;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	position: relative;
+
+}
+.kratos{
+
+background-color:#FFA500;
+position: relative;
+left: 300px;
+height: 30px;
+color: black;
+border-radius:10px;
+outline:none;
+}
+.kratos:hover{
+	cursor: pointer;
+	background-color: yellow;
+	color:black;
+}
+
+
+.red{
+	color: white;
+	display: block;
+	width: 230px;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	background-color: green;
+}
+.red:hover{
+	cursor: pointer;
+	background-color: yellow;
+	color: black;
+}
